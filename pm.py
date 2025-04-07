@@ -1,10 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import matplotlib
-import openpyxl
-from scipy.integrate import simpson
-
 class ParticleMeshSimulation:
     def __init__(self, grid_size, num_particles):
         self.grid_size = grid_size
